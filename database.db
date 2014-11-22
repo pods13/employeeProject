@@ -1,0 +1,9 @@
+CREATE TABLE `emplDB`.`employee` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `first_name` VARCHAR(45) NOT NULL,
+  `last_name` VARCHAR(45) NULL,
+  `second_name` VARCHAR(45) NULL,
+  `age` INT(3) NULL,
+  `experience` VARCHAR(100) NULL,
+  `description` VARCHAR(100) NULL,
+  PRIMARY KEY (`id`));
